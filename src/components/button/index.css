@@ -1,0 +1,45 @@
+.btn {
+    font-size: 14px;
+    line-height: 16px;
+    min-width: 40px;
+    min-height: 40px;
+    padding: 11px 12px;
+    min-width: 90px;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0;
+}
+
+.btn.btn-primary {
+    background: #2979FF;
+    box-shadow: none;
+    color: #FFF;
+}
+
+.btn.btn-primary:hover {
+    background: #2962FF;
+}
+
+.btn.btn-primary:active {
+    -webkit-box-shadow: inset 0px 5px 10px rgba(33, 33, 33, 0.2);
+    box-shadow: inset 0px 5px 10px rgba(33, 33, 33, 0.2);
+}
+
+.btn.btn-primary[disabled] {
+    background: rgba(41, 120, 255, 0.4);
+    cursor: not-allowed;
+}
