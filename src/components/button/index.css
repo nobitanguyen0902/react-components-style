@@ -1,3 +1,9 @@
+.list-btns {
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
 .btn {
     font-size: 14px;
     line-height: 16px;
@@ -5,7 +11,7 @@
     min-height: 40px;
     padding: 11px 12px;
     min-width: 90px;
-    border-radius: 4px;
+    border-radius: 2px;
     font-weight: 500;
     cursor: pointer;
     display: -ms-inline-flexbox;
@@ -29,17 +35,30 @@
     box-shadow: none;
     color: #FFF;
 }
-
 .btn.btn-primary:hover {
     background: #2962FF;
 }
-
 .btn.btn-primary:active {
     -webkit-box-shadow: inset 0px 5px 10px rgba(33, 33, 33, 0.2);
     box-shadow: inset 0px 5px 10px rgba(33, 33, 33, 0.2);
 }
-
 .btn.btn-primary[disabled] {
     background: rgba(41, 120, 255, 0.4);
     cursor: not-allowed;
+}
+
+.btn.btn-default {
+    background: grey;
+    box-shadow: none;
+    color: #000;
+}
+.btn.btn-success {
+    background: green;
+    box-shadow: none;
+    color: #fff;
+}
+.btn.btn-danger {
+    background: red;
+    box-shadow: none;
+    color: #fff;
 }

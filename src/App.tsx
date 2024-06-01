@@ -6,7 +6,7 @@ const App = () => {
   return <Routes>
     <Route path="/" element={<Layout />}>
       <Route path="/" element={<div>Home</div>} />
-      <Route path="/button" element={<Button />} />
+      {/* <Route path="/button" element={<Button />} /> */}
       <Route path="/input" element={<Input />} />
       <Route path="*" element={<NoMatch />} />
     </Route>
